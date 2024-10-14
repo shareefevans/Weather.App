@@ -3,6 +3,8 @@ const router = Router();
 
 // import HistoryService from '../../service/historyService.js';
 // import WeatherService from '../../service/weatherService.js';
+import HistoryService from '../../service/weatherService.js';
+import weatherService from '../../service/weatherService.js';
 
 // TODO: POST Request with city name to retrieve weather data
 router.post('/', (req, res) => {
