@@ -1,6 +1,6 @@
 # 🌦️ Weather.App
 
-[![Nodemon Version](https://img.shields.io/npm/v/nodemon.svg)](https://www.npmjs.com/package/nodemon) [![Concurrently Version](https://img.shields.io/npm/v/concurrently.svg)](https://www.npmjs.com/package/concurrently) [![Concurrently Version](https://img.shields.io/npm/v/concurrently.svg)](https://www.npmjs.com/package/concurrently)
+[![Nodemon Version](https://img.shields.io/npm/v/nodemon.svg)](https://www.npmjs.com/package/nodemon) [![Concurrently Version](https://img.shields.io/npm/v/concurrently.svg)](https://www.npmjs.com/package/concurrently) [![wait-on Version](https://img.shields.io/npm/v/wait-on.svg)](https://www.npmjs.com/package/wait-on)
 
 ## 🚀 Description
 
@@ -38,12 +38,10 @@ npm run start:dev
 
 ## 👍 Usage
 
-1.
-2.
-3.
-4.
-5.
-6.
+1. Once the program is up an running enter a city name into the input field
+2. Once entered, and the search button is clicked the city's wearther should populate
+3. Once eneted the history tab should also contain the city name entered
+4. User's also have the ability to delete items from history once they've been entered
 
 ## ➕ Contributing
 
@@ -51,16 +49,12 @@ npm run start:dev
 
 ## ✅ Tests
 
--
--
--
--
--
--
--
--
+- Open application
+- Input `San Diego`
+- Click search
+- Weather data should display over a 5 day period
 
-## ❌ Difficulties
+## ❌ Known Issues
 
 The main difficulties surfaced around the code within the weather.service module. The reason being it kept calling a destructuring error, meaning the application was not able to retrieve the data once the city's name had been entered into the input field. I attempted sourcing stackoverflow, as well as resorting to using AI to attempt to complete the task however the code became convoluted and still was calling the same error in the console!
 
@@ -79,5 +73,5 @@ The main difficulties surfaced around the code within the weather.service module
 
 This is an unlicensed project
 
-- MIT http://rem.mit-license.org
-- [MIT license](https://raw.githubusercontent.com/jeffbski/wait-on/master/LICENSE)
+- [MIT license 01](http://rem.mit-license.org)
+- [MIT license 02](https://raw.githubusercontent.com/jeffbski/wait-on/master/LICENSE)
